@@ -19,7 +19,6 @@ public class BlobCreation {
         try {
         	FileInputStream i=new FileInputStream("D:\\\\demo\\\\demo.zip");
         	BufferedInputStream b=new BufferedInputStream(i);
-        	System.out.println("gen pdf");
             DataInputStream dataInputStream = new DataInputStream(b);
             dataInputStream.readFully(bytes);
             System.out.println("gen pdf");
