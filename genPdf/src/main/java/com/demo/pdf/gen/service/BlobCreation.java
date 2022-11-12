@@ -34,7 +34,7 @@ public class BlobCreation {
             return "success";
         }
         catch (Exception e) {
-            System.out.println("Error");
+            System.out.println("Error ");
             e.printStackTrace();
         }
         return "failed";
